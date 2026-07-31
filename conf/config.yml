@@ -11,7 +11,7 @@ app:
 
 server:
   address: '127.0.0.1:__PORT__'
-  base_url: 'http://127.0.0.1:__PORT__'
+  base_url: 'http://__DOMAIN__'
   database: 'db.sqlite3'
 
 indexer:
