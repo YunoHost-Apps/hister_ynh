@@ -21,7 +21,7 @@ Your own search engine
 
 
 ## Screenshots
-![Screenshot of Hister](./doc/screenshots/example.jpg)
+![Screenshot of Hister](./doc/screenshots/screenshot.png)
 
 ## 📦 Developer info
 

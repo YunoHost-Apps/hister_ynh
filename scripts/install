@@ -23,10 +23,6 @@ ynh_script_progression "Adding $app's configuration files..."
 
 ynh_config_add --template="config.yml" --destination="$install_dir/config.yml"
 
-pushd $install_dir
-	ynh_hide_warnings hister listen --config $install_dir/config.yml
-popd
-
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
@@ -38,7 +34,7 @@ ynh_config_add_nginx
 # Create a dedicated systemd config
 ynh_config_add_systemd
 
-yunohost service add "$app" --description="A short description of the app" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Your own search engine" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE

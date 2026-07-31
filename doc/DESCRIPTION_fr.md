@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Hister est un moteur de recherche privé dédié aux pages que vous consultez et aux fichiers que vous conservez. Il indexe l'intégralité de leur contenu afin que vous puissiez retrouver ces informations depuis l'interface web, le terminal ou un assistant IA connecté via MCP.
