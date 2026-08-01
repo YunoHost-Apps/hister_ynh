@@ -50,7 +50,9 @@ ram.runtime = "50M"
     arm64.url = "https://github.com/asciimoo/hister/releases/download/v0.17.0/hister_0.17.0_linux_arm64"
     arm64.sha256 = "169e174c093761f5a3ebbc437f9b14677e58546990f0625270198ce672671442"
 
-    # autoupdate.strategy = "latest_github_tag"
+    in_subdir = false
+
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
