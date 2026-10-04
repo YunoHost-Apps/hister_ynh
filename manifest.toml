@@ -7,7 +7,7 @@ name = "Hister"
 description.en = "Your own search engine"
 description.fr = "Votre propre moteur de recherche"
 
-version = "0.19.0~ynh1"
+version = "0.20.0~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -46,10 +46,10 @@ ram.runtime = "50M"
     [resources.sources.main]
     rename = "hister"
     in_subdir = false
-    amd64.url = "https://github.com/asciimoo/hister/releases/download/v0.19.0/hister_0.19.0_linux_amd64"
-    amd64.sha256 = "7571f7b94039917d519372fa6aff18fe12c2ef50f981ac847ec1aff4d7e41701"
-    arm64.url = "https://github.com/asciimoo/hister/releases/download/v0.19.0/hister_0.19.0_linux_arm64"
-    arm64.sha256 = "2e20d119a0cda82c0fdd0d8798a4f574301f2a8507c88b1fc288b008c388e4a5"
+    amd64.url = "https://github.com/asciimoo/hister/releases/download/v0.20.0/hister_0.20.0_linux_amd64"
+    amd64.sha256 = "28c453cd3fe383dac936f91450c0bd6d3be4944079670aa607f38e01215844fe"
+    arm64.url = "https://github.com/asciimoo/hister/releases/download/v0.20.0/hister_0.20.0_linux_arm64"
+    arm64.sha256 = "606a8f3e4364b37b3861581a111d8acda58f38357afad0ae0ceba67978a8899a"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = "^hister_.*_linux_amd64$"
