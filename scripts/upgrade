@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Shell option for the glob not to resolve to a string if no language-specific indices are found
+shopt -s nullglob
+
 #=================================================
 # IMPORT GENERIC HELPERS
 #=================================================
@@ -18,7 +21,10 @@ ynh_systemctl --service="$app" --action="stop"
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
-ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="config.yml"
+# List of language-specific index files (if present, else empty string)
+indices=$(basename -a $install_dir/index_*.db 2>/dev/null | tr '\n' ' ')
+
+ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="config.yml db.sqlite3 index.db rules.json tui.yaml vectors.sqlite3 $indices"
 
 chmod +x $install_dir/hister
 
