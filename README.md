@@ -4,15 +4,15 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/hister.png" width="32px" alt="Logo of Hister">
-  Hister, packaged for YunoHost
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/hister.png" width="32px" alt="Logo of Nogon">
+  Nogon, packaged for YunoHost
 </h1>
 
 Your own search engine
 
-[![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://hister.org/)
-[![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://demo.hister.org/)
-[![Version: 0.19.0~ynh1](https://img.shields.io/badge/Version-0.19.0~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/hister/)
+[![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://nogon.eu/)
+[![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://demo.nogon.eu/)
+[![Version: 0.22.0~ynh1](https://img.shields.io/badge/Version-0.22.0~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/hister/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/hister"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
@@ -21,13 +21,13 @@ Your own search engine
 
 
 ## Screenshots
-![Screenshot of Hister](./doc/screenshots/screenshot.png)
+![Screenshot of Nogon](./doc/screenshots/screenshot.png)
 
 ## 📦 Developer info
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/hister)](https://ci-apps.yunohost.org/ci/apps/hister/)
 
-🛠️ Upstream Hister repository: <https://github.com/asciimoo/hister>
+🛠️ Upstream Nogon repository: <https://github.com/asciimoo/nogon>
 
 Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/hister_ynh/tree/testing).
 
