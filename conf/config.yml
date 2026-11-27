@@ -1,6 +1,6 @@
 app:
   directory: '__INSTALL_DIR__'
-  title: 'Hister'
+  title: 'Nogon'
   subtitle: 'Your own search engine'
   search_url: 'https://google.com/search?q={query}'
   public: false
@@ -26,7 +26,7 @@ crawler:
   proxy: 'http://127.0.0.1:8080'
   timeout: 5
   delay: 1
-  user_agent: 'Hister'
+  user_agent: 'Nogon'
 
 semantic_search:
   enable: false
